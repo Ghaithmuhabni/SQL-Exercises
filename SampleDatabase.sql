@@ -514,14 +514,3 @@ on students.stdno = register.stdno
 where mark <any (select mark from register join students 
 on students.stdno = register.stdno 
 where Depart='CS' )
-
------------------SQL Server Views--------------------
-
-
-
-
-
-
-
-
-
