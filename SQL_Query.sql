@@ -333,10 +333,3 @@ where c.customer_id = o.customer_id and o.store_id = s.store_id
 select f_name , l_name , order_id , order_date , store_name , street , s.city 
 from customers c join orders o on c.customer_id = o.customer_id 
 join stores s on o.store_id = s.store_id
-
--- daha karmasik ornek 
-
-
-
-
-
